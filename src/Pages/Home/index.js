@@ -16,9 +16,11 @@ import {
 } from "react-scroll-motion";
 import "./style.css";
 import headerImage from "../../../src/img/Screen Shot 2021-12-29 at 7.27.52 AM.png";
-import projectOne from "../../../src/img/Screen Shot 2021-12-29 at 9.08.44 AM.png";
-import projectTwo from "../../../src/img/Screen Shot 2021-12-29 at 9.09.08 AM.png";
-import projectThree from "../../../src/img/Screen Shot 2021-12-29 at 9.09.35 AM.png";
+import projectOne from "../../../src/img/Screen Shot 2021-12-29 at 4.20.44 PM.png";
+import projectTwo from "../../../src/img/Screen Shot 2021-12-29 at 4.23.09 PM.png";
+import projectThree from "../../../src/img/Screen Shot 2021-12-29 at 4.25.59 PM.png";
+import projectFour from "../../../src/img/Screen Shot 2021-12-29 at 4.24.12 PM.png"
+import projectFive from "../../../src/img/Screen Shot 2021-12-29 at 4.24.49 PM.png"
 import me from "../../../src/img/meeeeeeee.jpeg";
 
 //importing icons
@@ -37,23 +39,34 @@ const handleContactClick = (url) => {
   const win = window.open(url, "blank");
   win.focus();
 };
+//we fixed the link
 
 const Home = () => {
   const work = [
     {
-      name: "Project 1",
-      link: "#",
+      name: "Trivia",
+      link: "https://pensive-mahavira-832497.netlify.app",
       imageSrc: projectOne,
     },
     {
-      name: "Project 2",
-      link: "#",
+      name: "Wishlistst",
+      link: "https://td-penguin-project2.herokuapp.com/wishlists",
       imageSrc: projectTwo,
     },
     {
-      name: "Project 3",
-      link: "#",
+      name: "uWish [Group Wishlist]",
+      link: "https://penguin-react-express-project3.netlify.app",
       imageSrc: projectThree,
+    },
+    {
+      name: "Sneaker List",
+      link: "https://peaceful-khorana-fbb22c.netlify.app/",
+      imageSrc: projectFour,
+    },
+    {
+      name: "Bills",
+      link: "https://stupefied-perlman-e7e2a5.netlify.app/",
+      imageSrc: projectFive,
     },
   ];
   return (
@@ -96,7 +109,7 @@ const Home = () => {
         <div className="portfolio-content">
           {work?.map((work, index) => {
             return (
-              <a href={work?.Link} targe="_blank" key={work?.name}>
+              <a href={work?.link} targe="_blank" key={work?.name}>
                 <div className="portfolio-card">
                   <div className="project-image">
                     <img src={work?.imageSrc} alt={work?.name} />
@@ -259,7 +272,6 @@ const Home = () => {
           </span>
         </div>
       </ScrollPage>
-      
     </ScrollContainer>
   );
 };

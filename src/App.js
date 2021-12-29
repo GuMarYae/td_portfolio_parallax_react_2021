@@ -3,7 +3,7 @@ import Home from "./Pages/Home/index.js";
 function App() {
   return (
     <div className="App">
-      <h1>If you see this I love Shaina</h1>
+      <h6>If you see this I love Shaina</h6>
       <Home/>
     </div>
   );
