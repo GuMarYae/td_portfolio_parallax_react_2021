@@ -15,12 +15,13 @@ import {
   ZoomIn,
 } from "react-scroll-motion";
 import "./style.css";
-import headerImage from "../../../src/img/Screen Shot 2021-12-29 at 7.27.52 AM.png";
+// import headerImage from "../../../src/img/_storage_emulated_0_Pictures_Cartoon_Photo_cartoon1640817749680.jpg";
+import headerImage from "../../../src/img/_storage_emulated_0_Pictures_Cartoon_Photo_cartoon1640818583344.jpg";
 import projectOne from "../../../src/img/Screen Shot 2021-12-29 at 4.20.44 PM.png";
 import projectTwo from "../../../src/img/Screen Shot 2021-12-29 at 4.23.09 PM.png";
 import projectThree from "../../../src/img/Screen Shot 2021-12-29 at 4.25.59 PM.png";
-import projectFour from "../../../src/img/Screen Shot 2021-12-29 at 4.24.12 PM.png"
-import projectFive from "../../../src/img/Screen Shot 2021-12-29 at 4.24.49 PM.png"
+import projectFour from "../../../src/img/Screen Shot 2021-12-29 at 4.24.12 PM.png";
+import projectFive from "../../../src/img/Screen Shot 2021-12-29 at 4.24.49 PM.png";
 import me from "../../../src/img/meeeeeeee.jpeg";
 
 //importing icons
