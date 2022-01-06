@@ -82,7 +82,7 @@
   padding: 15px 100px;
 }
 
-.position-card {
+.portfolio-card {
   right: 0;
   padding: 50px;
   border-radius: 15px;
@@ -101,16 +101,17 @@
   z-index: 1;
 }
 
-.position-title {
+.portfolio-title {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.position-title h3 {
-  color: white;
-  font-size: clamp(18px, 3vw, 35px);
+.portfolio-title h3 {
+  color: lightcoral;
+  font-size: clamp(12px, 3vw, 20px);
   letter-spacing: 5px;
   font-weight: 400;
   display: inline-block;

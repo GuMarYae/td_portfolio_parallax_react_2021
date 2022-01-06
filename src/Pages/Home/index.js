@@ -110,12 +110,12 @@ const Home = () => {
         <div className="portfolio-content">
           {work?.map((work, index) => {
             return (
-              <a href={work?.link} targe="_blank" key={work?.name}>
+              <a href={work?.link} target="_blank" key={work?.name}>
                 <div className="portfolio-card">
                   <div className="project-image">
                     <img src={work?.imageSrc} alt={work?.name} />
                   </div>
-                  <div className="portfilio-title">
+                  <div className="portfolio-title">
                     <h3>{work?.name}</h3>
                   </div>
                   <div className="count">{index}</div>
