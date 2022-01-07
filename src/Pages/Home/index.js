@@ -229,7 +229,7 @@ const Home = () => {
               >
                 <FiMail color="white" className="contact-list-icon" />
 
-                <p>tddaniels@gmail.com</p>
+                <p>tddanielsjr@gmail.com</p>
               </div>
             </Animator>
             {/* ================================================================================================== */}
