@@ -146,7 +146,7 @@ const Home = () => {
           <div className="details">
             <h2 className="greeting">Hello!</h2>
             <p className="bio">
-              I’m Tony and I am Software Engineer. I have a background in audio
+              I’m Tony, a Software Engineer. I have a background in audio
               engineering and production, warehouse working and attended
               college.
             </p>
