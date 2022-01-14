@@ -211,7 +211,7 @@ const Home = () => {
               >
                 {/* <FiMail color="blue" className="contact-list-icon" /> */}
 
-                <p className="resume">◦•Resume◦•</p>
+                <p className="resume">◦• Resume ◦•</p>
               </div>
             </Animator>
              {/* ================================================================================================== */}
