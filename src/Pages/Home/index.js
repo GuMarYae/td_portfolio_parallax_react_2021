@@ -193,6 +193,67 @@ const Home = () => {
           }}
         >
           <span style={{ fontSize: "40px" }}>
+             {/* ================================================================================================== */}
+            {/* Resume */}
+            {/* ================================================================================================== */}
+            <Animator animation={MoveIn(1000, 0)}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                onClick={() =>
+                  handleContactClick(
+                    "https://drive.google.com/file/d/1rT_XaMMzNr5-pgaFfPGuvugWDnywxtVH/view?usp=sharing"
+                  )
+                }
+              >
+                <FiMail color="blue" className="contact-list-icon" />
+
+                <p>◦Resume◦</p>
+              </div>
+            </Animator>
+             {/* ================================================================================================== */}
+            {/* LinkedIn link */}
+            {/* ================================================================================================== */}
+            <Animator animation={MoveIn(1000, 0)}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                onClick={() =>
+                  handleContactClick(
+                    "https://www.linkedin.com/in/tony-daniels-8b6058165/"
+                  )
+                }
+              >
+                <TiSocialLinkedin color="white" className="contact-list-icon" />
+
+                <p>GuMarYae on LinkedIn</p>
+              </div>
+            </Animator>
+              {/* ================================================================================================== */}
+            {/* gitHub Link */}
+            {/* ================================================================================================== */}
+            <Animator animation={MoveIn(-1000, 0)}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                onClick={() =>
+                  handleContactClick("https://github.com/GuMarYae")
+                }
+              >
+                <FiGithub color="white" className="contact-list-icon" />
+
+                <p>GuMarYae on GitHub</p>
+              </div>
+            </Animator>
             {/* ================================================================================================== */}
             {/* insta link */}
             {/* ================================================================================================== */}
@@ -230,46 +291,6 @@ const Home = () => {
                 <FiMail color="white" className="contact-list-icon" />
 
                 <p>tddanielsjr@gmail.com</p>
-              </div>
-            </Animator>
-            {/* ================================================================================================== */}
-            {/* gitHub Link */}
-            {/* ================================================================================================== */}
-            <Animator animation={MoveIn(-1000, 0)}>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-                onClick={() =>
-                  handleContactClick("https://github.com/GuMarYae")
-                }
-              >
-                <FiGithub color="white" className="contact-list-icon" />
-
-                <p>GuMarYae on GitHub</p>
-              </div>
-            </Animator>
-            {/* ================================================================================================== */}
-            {/* LinkedIn link */}
-            {/* ================================================================================================== */}
-            <Animator animation={MoveIn(1000, 0)}>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-                onClick={() =>
-                  handleContactClick(
-                    "https://www.linkedin.com/in/tony-daniels-8b6058165/"
-                  )
-                }
-              >
-                <TiSocialLinkedin color="white" className="contact-list-icon" />
-
-                <p>GuMarYae on LinkedIn</p>
               </div>
             </Animator>
           </span>
